@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{amsthm, amsmath}
+
+\title{Discrete Mathematics with Applications}
+\author{Paul Pan}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Chapter 4}
+
+\newtheorem{theorem}{Theorem}
+\begin{theorem}
+    $\forall$ even integers $m$ and odd integers $n$, $m + n$ is odd.
+\end{theorem}
+
+\begin{proof}
+    Suppose $m$ is any even integer and $n$ is any odd integer. By definition of even,
+    $m = 2r$ for some integer $r$, and by definition of odd, $n = 2s + 1$ for some
+    integer $s$. By substitution and algebra,
+    \begin{align*}
+        m + n = 2r + 2s + 1 = 2(r + s) + 1
+    \end{align*}
+    Since $r$ and $s$ are both integers, so is their sum $r + s$. Hence $m + n$ has the
+    form twice some integer plus one, and so $m + n$ is odd by definition of odd.
+\end{proof}
+
+\begin{theorem}
+    Second theorem.
+\end{theorem}
+\end{document}
